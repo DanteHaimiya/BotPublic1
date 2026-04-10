@@ -606,7 +606,7 @@ async def AksiCekPembayaran(client, cq):
         try:
             await bot.send_photo(
                 chat_id=IdChannelLogTransaksi, 
-                photo="https://files.catbox.moe/wrnyvx.jpg", 
+                photo="https://files.catbox.moe/7sb2e7.jpg", 
                 caption=TeksCaptionLog, 
                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🤖 𝗞𝗲 𝗕𝗼𝘁 𝗨𝘁𝗮𝗺𝗮", url="https://t.me/biiew_bot")]])
             )
